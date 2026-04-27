@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Medical Profile</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #eaf4ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.header {
+    background: #0077cc;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin: 5px 0;
+}
+
+.info {
+    text-align: left;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.footer {
+    margin-top: 15px;
+    font-size: 10px;
+    color: gray;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <div class="header">
+        <h2>PERSONAL MEDICAL PROFILE</h2>
+    </div>
+
+    <h3>FRIANT CHRISTIAN MONGI</h3>
+    <p>Medical Student</p>
+
+    <div class="info">
+        <p><b>ID:</b> FCM-028-26</p>
+        <p><b>DOB:</b> 28-10-2013</p>
+        <p><b>Location:</b> Jayapura</p>
+        <p><b>Status:</b> Student</p>
+    </div>
+
+    <div class="footer">
+        This is a personal ID card project.
+    </div>
+</div>
+
+</body>
+</html>
